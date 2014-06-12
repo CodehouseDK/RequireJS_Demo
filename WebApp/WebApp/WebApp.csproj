@@ -135,7 +135,9 @@
     <Content Include="Scripts\lib\modernizr\modernizr-2.6.2.js" />
     <Content Include="Scripts\lib\RequireJs\r.js" />
     <Content Include="Scripts\lib\RequireJs\require.js" />
+    <Content Include="Scripts\lib\signals.js" />
     <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\modules\module.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -154,7 +156,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\modules\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
