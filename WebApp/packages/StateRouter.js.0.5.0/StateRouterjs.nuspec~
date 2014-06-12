@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>StateRouter.js</id>
+    <version>0.5.0</version>
+    <authors>Arve Knudsen</authors>
+    <owners>Arve Knudsen</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/aknuds1/staterouter.js</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>StateRouter.js is a small JavaScript library intended to extend the History.js HTML5 history library with routing capabilities.</description>
+    <releaseNotes>Assign current state to this when invoking router callbacks.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>JavaScript HTML5 Routing</tags>
+    <dependencies>
+      <dependency id="history.js" version="1.7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\staterouter.js" target="Content\Scripts" /> 
+    <file src="lib\staterouter.min.js" target="Content\Scripts" /> 
+  </files>
+</package>
